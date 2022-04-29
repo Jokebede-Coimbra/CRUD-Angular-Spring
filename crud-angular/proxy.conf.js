@@ -2,7 +2,7 @@ const PROXY_CONFIG = [
   {
     context: ['/api'],
     target: 'http://localhost:8080/',
-    secure: false,
+    secure: false, // falso > pq não estou usanso SSL > HTTPS
     logLevel: 'debug'
   }
 ];
