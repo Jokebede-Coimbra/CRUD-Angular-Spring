@@ -21,4 +21,10 @@ export class CoursesService {
         tap(courses => console.log(courses))
       );
   }
+
+  // Vai receber uma interface do tipo curso
+  save(course: Course) {
+    // estou enviando um curso para o back-end
+    return this.httpClient.post<Course>(this.API, course);
+  }
 }

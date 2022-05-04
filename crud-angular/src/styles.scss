@@ -2,8 +2,8 @@
 @import '@angular/material/theming';
 @include mat-core();//() - mixing é do próprio angular material
 
-$custom-app-primary: mat-palette($mat-purple, A700, A100,#4E0D3A);
-$custom-app-secondary: mat-palette($mat-green, 200);
+$custom-app-primary: mat-palette($mat-purple, 100, A200, #64DD17);
+$custom-app-secondary: mat-palette($mat-teal);
 $custom-app-warn: mat-palette($mat-red, A700);
 
 $custom-theme: mat-dark-theme($custom-app-primary, $custom-app-secondary, $custom-app-warn);
